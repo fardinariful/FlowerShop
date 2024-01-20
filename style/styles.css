@@ -22,6 +22,11 @@ button {
   font-weight: 700;
   border: none;
   padding: 20px 43px;
+  cursor: pointer;
+  transition:all 3s;
+}
+button:hover{
+    background: #54e578
 }
 header {
   background-color: rgba(229, 84, 115, 0.1);

@@ -118,15 +118,43 @@ button {
   justify-content: space-evenly;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  
 }
 
-.Support p{
+.Support p {
   margin-top: 20px;
   margin-bottom: 80px;
 }
 
-.Support .support1 img{
+.Support .support1 img {
   margin-top: 80px;
+}
+.fardin {
+  background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  align-items: center;
+}
+.hot-deal-text {
+  max-width: 550px;
+  width: 75%;
+}
 
+.hot-deal-text h2 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.extra-style-text {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }

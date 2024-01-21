@@ -141,14 +141,13 @@ button {
   max-width: 550px;
   width: 75%;
   text-align: center;
-  
 }
 
 .hot-deal-text h2 {
-   margin-bottom: 24px;
-   color: #272727; 
-   font-size: 40px;
-   font-weight: 800;
+  margin-bottom: 24px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 }
 .extra-style-text {
   color: #e55473;
@@ -159,19 +158,89 @@ button {
   line-height: normal;
 }
 
-.hot-deal-text button{
+.hot-deal-text button {
   margin-top: 24px;
 }
 
-.hot-deal-img img{
+.hot-deal-img img {
   max-width: 318px;
   width: 100%;
 }
 
-.section-img{
+.section-img {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
-.fardin2 .section-heading{
+.section-img img {
+  width: 100%;
+}
+.fardin2 .section-heading {
   margin-top: 128px;
+}
+
+.fardin3 {
+  margin-top: 128px;
+}
+.background {
+  background-image: url("../FlowerAsset/Rectangle\ 9.png");
+  padding: 100px 0;
+  border-radius: 8px;
+}
+
+.background form {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+
+.background form input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 22px 23px;
+  outline: none;
+}
+
+footer {
+  background-color: #111010;
+}
+.Flowerclass {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.shopclass {
+  color: #fff;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.fardin4 {
+  padding: 128px 0;
+}
+.fardin4 p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.copyright {
+  margin-top: 32px;
+  color: #FFFFFF66;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
